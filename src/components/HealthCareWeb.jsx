@@ -9,6 +9,7 @@ import {
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
 import Services from "./Services/Services";
+import StepsSection from "./Steps/StepsSection";
 import Testimonials from "./Testimonials/Testimonials";
 
 const HealthCareWeb = () => {
@@ -16,8 +17,9 @@ const HealthCareWeb = () => {
     <div>
       <Navbar />
       <Hero />
-      <Services />
       <CareJourney />
+      <Services />
+      <StepsSection />
       <Appointment />
       <FAQSection />
       <Testimonial />
