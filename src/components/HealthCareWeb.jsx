@@ -1,8 +1,15 @@
-import Appointment from "./Appointment/Appointment"
-import Hero from "./Hero/Hero"
-import Navbar from "./Navbar/Navbar"
-import Services from "./Services/Services"
-import Testimonials from "./Testimonials/Testimonials"
+import Appointment from "./Appointment/Appointment";
+import {
+  AffordableRate,
+  CareJourney,
+  FAQSection,
+  Footer,
+  Testimonial,
+} from "./components";
+import Hero from "./Hero/Hero";
+import Navbar from "./Navbar/Navbar";
+import Services from "./Services/Services";
+import Testimonials from "./Testimonials/Testimonials";
 
 const HealthCareWeb = () => {
   return (
@@ -10,10 +17,14 @@ const HealthCareWeb = () => {
       <Navbar />
       <Hero />
       <Services />
+      <CareJourney />
       <Appointment />
-      <Testimonials />
+      <FAQSection />
+      <Testimonial />
+      <AffordableRate />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default HealthCareWeb
+export default HealthCareWeb;
